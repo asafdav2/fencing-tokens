@@ -1,0 +1,25 @@
+{
+  "name": "fencing_tokens",
+  "version": "1.0.0",
+  "description": "node.js implementation of fencing tokens",
+  "main": "",
+  "dependencies": {
+    "bookshelf": "^0.10.3",
+    "knex": "^0.12.7",
+    "pg": "^6.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asafdav2/fencing-tokens"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "author": "Asaf David",
+  "license": "MIT"
+}
